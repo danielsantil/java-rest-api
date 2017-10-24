@@ -4,8 +4,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
 
-import com.myapi.services.subresources.AcceptSubResource;
-import com.myapi.services.subresources.OkSubResource;
+import com.myapi.subresources.AcceptSubResource;
+import com.myapi.subresources.OkSubResource;
 
 @Path("/root")
 public class RootResource {

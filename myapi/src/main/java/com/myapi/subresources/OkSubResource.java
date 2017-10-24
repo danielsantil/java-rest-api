@@ -1,4 +1,4 @@
-package com.myapi.services.subresources;
+package com.myapi.subresources;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

@@ -1,4 +1,4 @@
-package com.myapi.services;
+package com.myapi.config;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,6 +7,11 @@ import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
 import org.glassfish.jersey.jackson.JacksonFeature;
+
+import com.myapi.services.ContentResource;
+import com.myapi.services.CustomerResourceService;
+import com.myapi.services.InjectionsResource;
+import com.myapi.services.RootResource;
 
 @ApplicationPath("/*")
 public class ApplicationConfig extends Application {

@@ -23,6 +23,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 import com.myapi.beans.Customer;
+import com.myapi.contracts.CustomerResource;
 
 public class CustomerResourceService implements CustomerResource {
 

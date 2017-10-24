@@ -1,4 +1,4 @@
-package com.myapi.services;
+package com.myapi.config;
 
 import javax.ws.rs.ext.ContextResolver;
 

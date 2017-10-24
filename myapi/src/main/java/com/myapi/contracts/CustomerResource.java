@@ -1,4 +1,4 @@
-package com.myapi.services;
+package com.myapi.contracts;
 
 import java.io.InputStream;
 

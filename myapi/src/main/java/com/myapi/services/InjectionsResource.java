@@ -24,6 +24,7 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
 import com.myapi.beans.Customer;
+import com.myapi.enums.Color;
 
 @Path("/injections")
 public class InjectionsResource {
